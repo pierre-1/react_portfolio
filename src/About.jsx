@@ -11,9 +11,7 @@ const About = () => {
             <div class="column">
                 <h1 className="ui header">About Me</h1>
                 <p>
-                Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident 
-                corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum 
-                molestias?
+                    World citizen currently on a coding journey.
                 </p>
             </div>
         </div>
