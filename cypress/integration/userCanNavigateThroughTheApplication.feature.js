@@ -1,16 +1,14 @@
-import { cyan } from "../../../../Library/Caches/typescript/3.5/node_modules/@types/color-name";
-import { italic } from "ansi-colors";
+
 
 describe('User can navigate the app', () => {
     beforeEach(()=>{
-        cy.visit('http:localhost:3000');
+        cy.visit('http://localhost:3000');
     })
 
     describe('to About tab and it', () => {
       beforeEach(() => {
         cy.get('#about-tab').click();
       })
-    })
 
     it('displays About Me header', () => {
       cy.get('#about-header').should('contain', 'About Me');
