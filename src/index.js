@@ -18,14 +18,15 @@ const App = () => {
         style={{ position: "absolute", zIndex: "1" }}
         params={particlesOptions}
       />
-      <Switch>
-        <Route exact path="/" component={Hello}></Route>
-        <Route exact path="/about" component={About}></Route>
-        <Route exact path="/projects" component={Projects}></Route>
-      </Switch>
-      <Header />
-
-      <Footer />
+      <div>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Hello}></Route>
+          <Route exact path="/about" component={About}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
+        </Switch>
+        <Footer />
+      </div>
     </>
   );
 };
