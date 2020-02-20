@@ -2,19 +2,29 @@
     {
       "id": 1,
       "name": "My First Website",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "This was my first project. The guy lost, but won the popular vote!"
+      "link": "https://pierre-1.github.io/",
+      "image": "src/images/logo-2582748_640.png",
+      "description": "My first website. Ah, the days of naiveté when ignorance is bliss!"
     },
     {
       "id": 2,
-      "name": "UI Design",
-      "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interfaces is fun. I want to learn more about that..."
+      "name": "ATM Challenge",
+      "link": "https://github.com/pierre-1/atm_challenge.git",
+      "image": "src/images/rubylogo.png",
+      "description": "A virtual ATM machine coded in Ruby with sweat, blood and tears."
     },
     {
       "id": 3,
-      "name": "Mobile UX",
-      "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+      "name": "Library Challenge",
+      "link": "https://github.com/pierre-1/library-challenge.git",
+      "image": "/src/images/yaml-logo.png",
+      "description": "Foray into the murky world of YAML files."
+    },
+    {
+      "id": 4,
+      "name": "Legacy Code Challenge",
+      "link": "https://github.com/pierre-1/legacy_team2_2020.git",
+      "image": "src/images/railslogo.png",
+      "description": "Rails on Rails on Rails."
     }
   ]
