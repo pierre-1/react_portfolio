@@ -25,7 +25,7 @@ const About = () => {
         
     </div>
     </div>
-    <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh'}} >
+    <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh', marginTop: '-1rem'}} >
     </div>
         
     </>

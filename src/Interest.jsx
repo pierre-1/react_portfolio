@@ -35,26 +35,31 @@ class Interest extends Component {
 
     return (
       <>
-      <div className="ui main container">
-        <div style={{ position: "absolute", zIndex: "999" }}>
-          <div className="ui stackable two column grid">
-            <div className="column">
-              <UndrawRideABicycle primaryColor="#12283a" height="200px" />
+        <div className="ui main container">
+          <div style={{ position: "absolute", zIndex: "999" }}>
+            <div className="ui stackable two column grid">
+              <div className="column">
+                <UndrawRideABicycle primaryColor="#12283a" height="200px" />
+              </div>
+              <div className="column">
+                <h1 className="ui header">What I like.</h1>
+                <p>A brief look inside my brain.</p>
+              </div>
             </div>
-            <div className="column">
-              <h1 className="ui header">My Interests</h1>
-              <p>
-                Below you will get to know more about my passions.
-              </p>
-            </div>
+            <div className="ui stackable four column grid">{interestList}</div>
           </div>
-          <div className="ui stackable four column grid">{interestList}</div>
         </div>
-      </div>
-          
-          <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh'}} >
-          </div>
-          </>
+
+        <div
+          className="hero-image"
+          style={{
+            background: 'url("/src/images/Boston City Flow.jpg")',
+            backgroundSize: "cover",
+            height: "100vh",
+            marginTop: "-1rem"
+          }}
+        ></div>
+      </>
     );
   }
 }

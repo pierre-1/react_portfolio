@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 import { UndrawBuildingBlocks } from "react-undraw-illustrations";
-import Particles from "react-particles-js";
-import { particlesOptions } from "./data/particles";
+
 
 class Projects extends Component {
   state = {
@@ -33,6 +32,7 @@ class Projects extends Component {
     }
 
     return (
+      <>
       <div className="ui main container">
         <div style={{ position: "absolute", zIndex: "999" }}>
           <div className="ui stackable two column grid">
@@ -49,6 +49,9 @@ class Projects extends Component {
           <div className="ui stackable four column grid">{projectsList}</div>
         </div>
       </div>
+      <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh', marginTop: '-1rem'}} >
+      </div>
+      </>
     );
   }
 }

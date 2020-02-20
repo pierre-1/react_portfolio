@@ -19,5 +19,13 @@
       "link": "https://www.npr.org/sections/politics/",
       "image": "src/images/debate.jpg",
       "description": "Game on for Super Tuesday"
+    },
+
+    {
+      "id": 4,
+      "name": "French News",
+      "link": "https://www.france24.com/fr/",
+      "image": "src/images/france24logo.jpg",
+      "description": "My source of world news in French"
     }
   ]
