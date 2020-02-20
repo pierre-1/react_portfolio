@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import InterestCard from "./InterestCard";
-import { UndrawBuildingBlocks } from "react-undraw-illustrations";
-import Particles from "react-particles-js";
-import { particlesOptions } from "./data/particles";
 import UndrawRideABicycle from "react-undraw-illustrations/lib/components/UndrawRideABicycle/UndrawRideABicycle";
 
 class Interest extends Component {
@@ -56,7 +53,7 @@ class Interest extends Component {
             background: 'url("/src/images/Boston City Flow.jpg")',
             backgroundSize: "cover",
             height: "100vh",
-            marginTop: "-1rem"
+            marginTop: "-1.2rem"
           }}
         ></div>
       </>

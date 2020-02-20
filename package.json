@@ -16,6 +16,7 @@
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
     "react-undraw-illustrations": "^2.0.3",
+    "semantic-ui-react": "^0.88.2",
     "serialize-javascript": "^3.0.0"
   },
   "devDependencies": {

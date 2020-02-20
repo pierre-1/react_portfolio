@@ -32,7 +32,15 @@ const Header = () => {
             activeStyle={{ fontWeight: "bold" }}
             to="/interest"
           >
-            Interest
+            Interests
+          </NavLink>
+          <NavLink
+            id="Form"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/form"
+          >
+            Form
           </NavLink>
       </div>
     </div>

@@ -8,7 +8,7 @@ import Interest from "./Interest";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
-
+import FormExampleFieldControlId from "./Form"
 import Particles from "react-particles-js";
 import { particlesOptions } from "./data/particles";
 
@@ -26,6 +26,7 @@ const App = () => {
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/projects" component={Projects}></Route>
           <Route exact path="/interest" component={Interest}></Route>
+          <Route exact path="/form" component={FormExampleFieldControlId}></Route>
         </Switch>
         <Footer />
       </div>

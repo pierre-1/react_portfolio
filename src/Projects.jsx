@@ -49,7 +49,7 @@ class Projects extends Component {
           <div className="ui stackable four column grid">{projectsList}</div>
         </div>
       </div>
-      <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh', marginTop: '-1rem'}} >
+      <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh', marginTop: '-1.2rem'}} >
       </div>
       </>
     );
