@@ -2,28 +2,28 @@
     {
       "id": 1,
       "name": "My First Website",
-      "url": "https://pierre-1.github.io/",
+      "link": "https://pierre-1.github.io/",
       "image": "src/images/logo-2582748_640.png",
       "description": "My first website. Ah, the days of naiveté when ignorance is bliss!"
     },
     {
       "id": 2,
       "name": "ATM Challenge",
-      "url": "https://github.com/pierre-1/atm_challenge.git",
+      "link": "https://github.com/pierre-1/atm_challenge.git",
       "image": "src/images/rubylogo.png",
       "description": "A virtual ATM machine coded in Ruby with sweat, blood and tears."
     },
     {
       "id": 3,
       "name": "Library Challenge",
-      "url": "https://github.com/pierre-1/library-challenge.git",
+      "link": "https://github.com/pierre-1/library-challenge.git",
       "image": "/src/images/yaml-logo.png",
       "description": "Foray into the murky world of YAML files."
     },
     {
       "id": 4,
       "name": "Legacy Code Challenge",
-      "url": "https://github.com/pierre-1/legacy_team2_2020.git",
+      "link": "https://github.com/pierre-1/legacy_team2_2020.git",
       "image": "src/images/railslogo.png",
       "description": "Rails on Rails on Rails."
     }

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import Hello from "./Hello";
 import Header from "./Header";
 import Footer from "./Footer";
+import Interest from "./Interest";
 
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
@@ -24,6 +25,7 @@ const App = () => {
           <Route exact path="/" component={Hello}></Route>
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/projects" component={Projects}></Route>
+          <Route exact path="/interest" component={Interest}></Route>
         </Switch>
         <Footer />
       </div>
