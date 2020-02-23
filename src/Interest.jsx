@@ -56,7 +56,7 @@ class Interest extends Component {
             background: 'url("/src/images/Boston City Flow.jpg")',
             backgroundSize: "cover",
             height: "100vh",
-            marginTop: "-1rem"
+            marginTop: "-1.2rem"
           }}
         ></div>
       </>

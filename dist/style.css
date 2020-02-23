@@ -18,7 +18,7 @@
 
   .hero-text {
   z-index: 1000;
-  position: "relative";
+  position: "absolute";
   text-align: center;
   color: white;
   }

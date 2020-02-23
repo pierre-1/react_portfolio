@@ -22,7 +22,7 @@ const Hello = () => {
                 get in touch if you have any questions.
               </h4>
               <div>
-                <a class="big ui primary button" href="www.google.com"> Contact </a>
+                <a className="big ui primary button" href="mailto:pierreantoine.tiberi@gmail.com"> Contact </a>
                </div>
               
             </div>

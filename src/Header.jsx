@@ -27,12 +27,21 @@ const Header = () => {
           </NavLink>
 
           <NavLink
-            id="Interest"
+            id="interest-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
             to="/interest"
           >
-            Interest
+            Interests
+          </NavLink>
+
+          <NavLink
+            id="CV-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/curriculumvitae"
+          >
+            Curriculum Vitae
           </NavLink>
       </div>
     </div>
