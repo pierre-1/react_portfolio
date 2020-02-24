@@ -3,7 +3,6 @@ import axios from "axios";
 import CVCard from "./CVCard";
 import { UndrawBuildingBlocks } from "react-undraw-illustrations";
 
-
 class CurriculumVitae extends Component {
   state = {
     curriculumvitae: []
@@ -22,7 +21,7 @@ class CurriculumVitae extends Component {
     let curriculumvitaeList;
 
     if (curriculumvitae.length > 0) {
-        curriculumvitaeList = curriculumvitae.map(item => {
+      curriculumvitaeList = curriculumvitae.map(item => {
         return (
           <div id={"curriculumvitae-" + item.id} key={item.id}>
             <CVCard curriculumvitae={item} />
@@ -33,24 +32,31 @@ class CurriculumVitae extends Component {
 
     return (
       <>
-      <div className="ui main container">
-        <div style={{ position: "absolute", zIndex: "999" }}>
-          <div className="ui stackable two column grid">
-            <div className="column">
-              <UndrawBuildingBlocks primaryColor="#12283a" height="200px" />
+        <div className="ui main container">
+          <div style={{ position: "absolute", zIndex: "999" }}>
+            <div className="ui stackable two column grid">
+              <div className="column">
+                <UndrawBuildingBlocks primaryColor="#12283a" height="200px" />
+              </div>
+              <div className="column">
+                <h1 className="ui header">My CV</h1>
+                <p>Below you will find some of my work experience.</p>
+              </div>
             </div>
-            <div className="column">
-              <h1 className="ui header">My CV</h1>
-              <p>
-                Below you will find a few of my first coding projects.
-              </p>
+            <div className="ui stackable four column grid">
+              {curriculumvitaeList}
             </div>
           </div>
-          <div className="ui stackable four column grid">{curriculumvitaeList}</div>
         </div>
-      </div>
-      <div className="hero-image" style={{ background: 'url("/src/images/Boston City Flow.jpg")', backgroundSize: 'cover', height: '100vh', marginTop: '-1.2rem'}} >
-      </div>
+        <div
+          className="hero-image"
+          style={{
+            background: 'url("/src/images/Boston City Flow.jpg")',
+            backgroundSize: "cover",
+            height: "100vh",
+            marginTop: "-1.2rem"
+          }}
+        ></div>
       </>
     );
   }

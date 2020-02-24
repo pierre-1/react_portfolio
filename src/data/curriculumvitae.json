@@ -1,31 +1,20 @@
 [
     {
       "id": 1,
-      "name": "Tour de France",
-      "image": "src/images/TDF.jpg",
-      "link": "https://www.letour.fr/en/",
-      "description": "Taming the road one ride at a time"
+      "name": "January 2014 – August 2019",
+      "image": "",
+      "description": "Youth Program Manager at the French Cultural Center/Alliance Française of Boston, Massachusetts, USA. Educational and cultural project management, quality control and training, marketing content creation for the Education Department. Achieved continuous year-over-year revenue growth (totaling US$2M in tuition for children and teens programs). Responsible for communication and engagement with parents and families. Direct supervisor for a team of 10 teachers, collaborative management of a team of 25. French foreign language and bilingual curricula development. Manager of “Accent on Success”, a community outreach program serving low-income Boston Public Schools." 
     },
     {
       "id": 2,
-      "name": "Musical Discoveries",
-      "link": "https://www.sylvanesso.com/",
-      "image": "/src/images/SE_2.jpg",
-      "description": "Great duo pumping out melodic indie electronic"
+      "name": "August 2013 – December 2013",
+      "image": "",
+      "description": "Teaching Assistant for graduate RETELL (Rethinking Equity in Teaching English Language Learners) Course 591SE, Genre-based pedagogy and Systemic Functional Linguistics. UMASS Amherst College of Education. "
     },
     {
       "id": 3,
-      "name": "US Election",
-      "link": "https://www.npr.org/sections/politics/",
-      "image": "src/images/debate.jpg",
-      "description": "Game on for Super Tuesday"
-    },
-
-    {
-      "id": 4,
-      "name": "French News",
-      "link": "https://www.france24.com/fr/",
-      "image": "src/images/france24logo.jpg",
-      "description": "My source of world news in French"
+      "name": "June 2013 – December 2013",
+      "image": "",
+      "description": "Language Instructor at the International Language Institute, Northampton, MA. Intensive English Program (IEP) and World Languages Program."
     }
   ]
